@@ -1,0 +1,164 @@
+/* -----------font style --------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+
+ /* ---common style --- */
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    margin: 0px;
+    
+}
+
+/*------------ container + banner section--------- */
+
+.homepage{
+    display: flex;
+    background-color: #2D25A0; 
+    width: 1440px;
+    height: 677px;    
+}
+.homepage-title{
+    
+    width: 485px;
+    height: 230px;
+    margin-left: 156px;
+    margin-top: 207px;
+    margin-bottom: 169px;
+    
+}
+.homepage-text{
+    font-weight: bold;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+    
+}
+.banner-image{
+    width: 556.01px;
+    height: 438px;
+    margin-left: 102px;
+    margin-right: 141px;
+    margin-top: 153px;
+    margin-bottom: 86px;
+}
+.button{ 
+    display: flex;
+    background: #E02C6D;
+    width: 168px;
+    height: 44px; 
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+     
+}
+#button-id{
+    padding: 10px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 88px;
+    height: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+   
+    
+}
+.fa-arrow-right{
+    position: relative;
+    width: 20px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* player section */
+.player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-top: 70px;
+    margin-bottom: 27px;
+    padding: 15px;
+}
+.player-info-card{
+    width: 330px;
+    height: 474px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-info-inside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 300px;
+    height: 426px;
+}
+.player-pic{
+    width: 300px;
+    height: 256px;
+}
+
+/* ---------top scorer section----------- */
+.top-scorer-title{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-top: 70px;
+    margin-bottom: 27px;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    width: 1050px;
+    height: 1150px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 2%;
+
+}
+.top-scorer-title p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.top-player-img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+/*--------- footer section ------ */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 478px;
+    margin-right: 479px;
+    margin-bottom: 53px;
+   
+
+}
+
+.footer-logo{
+    width: 480px;
+    height: 102px;
+    margin: 20px 0px;
+    padding: 5px;
+}
+.social-icon{
+    display: flex;
+    flex-direction: row;
+    
+}
+.fab {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    
+}
