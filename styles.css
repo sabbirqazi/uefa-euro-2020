@@ -14,26 +14,57 @@ body{
 
 /*------------ container + banner section--------- */
 
+
 .homepage{
     display: flex;
     background-color: #2D25A0; 
-    width: 1440px;
-    height: 677px;    
+    max-width: 1440px;
+    max-height: 677px;    
 }
 .homepage-title{
-    
     width: 485px;
     height: 230px;
     margin-left: 156px;
     margin-top: 207px;
-    margin-bottom: 169px;
+    margin-bottom: 240px;
     
 }
 .homepage-text{
+    font-style: normal;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 50px;
     color: #FFFFFF;
     margin-bottom: 27px;
+    
+    
+}
+
+
+.button{ 
+    display: flex;
+    background: #E02C6D;
+    width: 168px;
+    height: 44px; 
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 27px; */
+    margin-bottom: 169px;
+}
+#button-id{
+    
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+   
+    
+}
+.fa-arrow-right{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 .banner-image{
@@ -44,36 +75,6 @@ body{
     margin-top: 153px;
     margin-bottom: 86px;
 }
-.button{ 
-    display: flex;
-    background: #E02C6D;
-    width: 168px;
-    height: 44px; 
-    gap: 8px;
-    justify-content: center;
-    align-items: center;
-     
-}
-#button-id{
-    padding: 10px 24px;
-    font-weight: 500;
-    font-size: 16px;
-    width: 88px;
-    height: 24px;
-    text-decoration: none;
-    color: #FFFFFF;
-   
-    
-}
-.fa-arrow-right{
-    position: relative;
-    width: 20px;
-    height: 24px;
-    justify-content: center;
-    align-items: center;
-    
-}
-
 /* player section */
 .player{
     display: grid;
